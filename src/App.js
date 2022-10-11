@@ -1,17 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Header from './components/Header/Header';
+import Main from './Layout/Main';
+import Home from './components/home/Home';
 
 function App() {
   const router = createBrowserRouter([
     {
-      path: '/', element:<Header></Header>
-     
+      path: '/', element: <Main></Main>, children: [
+        {
+          path: '/home', element:<Home></Home>
+      
+      
+        }
+      ]
+      
+    },
+    {
+      path:'*',element:<p>This Page Not Found</p>
     }
 
-  ])
+  
 
+  ])
 
   return (
     <div className="App">
