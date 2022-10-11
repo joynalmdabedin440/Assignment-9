@@ -1,13 +1,36 @@
-#home-background{
+#home-background {
     background-image: url(https://st.depositphotos.com/1032577/4119/i/600/depositphotos_41197145-stock-photo-quiz.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#home-background h1{
+#home-background h1 {
     padding: 10%;
     font-size: 5vw;
     font-weight: 700;
-    color:rgba(23, 35, 201, 0.795);
+    color: rgba(23, 35, 201, 0.795);
+}
+
+#home-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+@media screen and (max-width:500px) {
+    #home-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1000px) {
+    #home-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+
+    }
 }

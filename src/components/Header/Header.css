@@ -3,9 +3,27 @@
     font-size: 45px;
     font-weight: 700;
 }
+#link-id a{
+    text-decoration: none;
+    margin: 5px;
+    
+}
+#link-id a:hover{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 @media screen and (max-width:500px)  {
     #title{
         font-size:25px;
+    }
+}
+
+@media screen and (min-width:500px)  {
+    #link-id a{
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 50px;
     }
 }

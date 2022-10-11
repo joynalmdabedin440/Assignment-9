@@ -1,0 +1,12 @@
+#topic-card{   
+   
+    background-color: bisque;
+    width: 250px;
+    border: 2px solid rgb(231, 223, 240);
+    border-radius: 10px;
+}
+
+#topic-card img{
+    width: 100%;
+    height: 75%;
+}

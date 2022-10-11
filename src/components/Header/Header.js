@@ -5,16 +5,16 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <Navbar className='' bg="light" expand="lg">
+        <Navbar  bg="light" expand="lg">
             <Container>
                 <Navbar.Brand id='title' href="/home">QUIZ CONTEST </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto ">
-                        <Nav.Link className='text-primary' href="/home">Home</Nav.Link>
-                        <Nav.Link className='text-primary' href="/topics">Topics</Nav.Link>
-                        <Nav.Link className='text-primary' href="/statistics">Statistics</Nav.Link>
-                        <Nav.Link className='text-primary' href="/blog">Blog</Nav.Link>
+                    <Nav id='link-id' className="me-auto ">
+                        <Link className='text-primary' to="/home">Home</Link>
+                        <Link className='text-primary' to="/topics">Topics</Link>
+                        <Link className='text-primary' to="/statistics">Statistics</Link>
+                        <Link className='text-primary' to="/blog">Blog</Link>
 
                     </Nav>
                 </Navbar.Collapse>
