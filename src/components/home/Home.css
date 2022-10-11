@@ -1,0 +1,13 @@
+#home-background{
+    background-image: url(https://st.depositphotos.com/1032577/4119/i/600/depositphotos_41197145-stock-photo-quiz.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-background h1{
+    padding: 10%;
+    font-size: 5vw;
+    font-weight: 700;
+    color:rgba(23, 35, 201, 0.795);
+}

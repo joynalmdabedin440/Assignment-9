@@ -3,3 +3,9 @@
     font-size: 45px;
     font-weight: 700;
 }
+
+@media screen and (max-width:500px)  {
+    #title{
+        font-size:25px;
+    }
+}
