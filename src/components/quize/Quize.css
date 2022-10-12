@@ -1,0 +1,16 @@
+#quiz{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f3f0f0;
+    box-shadow: 2px 2px 5px #888888;
+}
+#eye-icon{
+    width: 35px;
+    height: 30px;
+    border: 0;
+    color: rgb(7, 23, 161);
+
+}
+#eye-icon :hover{
+    color: red;
+}
