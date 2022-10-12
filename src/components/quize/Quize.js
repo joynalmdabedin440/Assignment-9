@@ -1,7 +1,14 @@
 import React from 'react';
 import "./Quize.css"
 const Quize = ({ quize }) => {
-    const { question, options } = quize
+    const { question, options,correctAnswer } = quize;
+    console.log(correctAnswer);
+
+    // const clickHandle = () => {
+    //     if(){
+
+    //     }
+    // }
 
     return (
         <div id='quiz' className='m-4'>
@@ -18,7 +25,9 @@ const Quize = ({ quize }) => {
 
 
             <div >
-                {options.map(option => <div className='m-2 border  p-2 rounded'>
+                {options.map(option => <div  
+                    className='m-2 border  p-2 rounded'>
+                  
                     <input
                         type="radio"
                         id="option"
@@ -30,10 +39,8 @@ const Quize = ({ quize }) => {
                     </label>
 
                 </div>
-                )}
-
-
-
+                )};
+             
             </div>
         </div>
     );

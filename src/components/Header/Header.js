@@ -14,7 +14,7 @@ const Header = () => {
                         <Link className='text-primary' to="/home">Home</Link>
                         <Link className='text-primary' to="/topics">Topics</Link>
                         <Link className='text-primary' to="/statistics">Statistics</Link>
-                        <Link className='text-primary' to="/blog">Blog</Link>
+                        <Link className='text-primary' to="/blogs">Blog</Link>
 
                     </Nav>
                 </Navbar.Collapse>

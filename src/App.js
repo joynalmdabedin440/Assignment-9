@@ -5,6 +5,8 @@ import Main from './Layout/Main';
 import Home from './components/home/Home';
 import Topics from './components/topics/Topics';
 import Quizes from './components/Quizes/Quizes';
+import Blogs from './components/blogs/Blogs';
+import Statistics from './components/statistics/Statistics';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +33,13 @@ function App() {
           },
           
           element: <Quizes></Quizes>
+        },
+        {
+          path:'/blogs',element:<Blogs></Blogs>
+        },
+
+        {
+          path:'/statistics',element:<Statistics></Statistics>
         }
 
       ]     
