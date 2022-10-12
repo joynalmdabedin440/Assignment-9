@@ -15,6 +15,7 @@ const Header = () => {
                         <Link className='text-primary' to="/topics">Topics</Link>
                         <Link className='text-primary' to="/statistics">Statistics</Link>
                         <Link className='text-primary' to="/blogs">Blog</Link>
+                        <Link className='text-primary' to="/about">About</Link>
 
                     </Nav>
                 </Navbar.Collapse>

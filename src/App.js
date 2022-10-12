@@ -3,7 +3,6 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layout/Main';
 import Home from './components/home/Home';
-import Topics from './components/topics/Topics';
 import Quizes from './components/Quizes/Quizes';
 import Blogs from './components/blogs/Blogs';
 import Statistics from './components/statistics/Statistics';
@@ -57,7 +56,7 @@ function App() {
     },
 
     {
-      path:'*',element:<p>This Page Not Found</p>
+      path:'*',element:<h1>This Page Not Found.Route is not set Perfectly.</h1>
     }
   ])
 
