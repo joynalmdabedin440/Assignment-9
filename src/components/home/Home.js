@@ -4,7 +4,7 @@ import Topics from '../topics/Topics';
 import "./Home.css"
 const Home = () => {
     const dataLoader = useLoaderData();
-    console.log(dataLoader.data);
+    
     const topics = dataLoader.data;
     return (
         <div className='mt-5'>

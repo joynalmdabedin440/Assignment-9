@@ -3,6 +3,8 @@ import './App.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './Layout/Main';
 import Home from './components/home/Home';
+import Topics from './components/topics/Topics';
+import Quizes from './components/Quizes/Quizes';
 
 function App() {
   const router = createBrowserRouter([
@@ -14,7 +16,16 @@ function App() {
             return fetch(" https://openapi.programming-hero.com/api/quiz")
           },
           element: <Home></Home>
+        },
+        {
+          path: '/home/:id',
+          loader: async ({ params }) => {
+            return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+          },
+          
+          element: <Quizes></Quizes>
         }
+
       ]     
     },
 
