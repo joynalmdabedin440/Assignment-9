@@ -11,7 +11,7 @@ const Home = () => {
             <div id='home-background'>
                 <h1>Participet at least one quiz topic from below.For judge YOURSELF.</h1>
             </div>
-            <div id='home-card' className='mt-5'>
+            <div id='home-card' className='mt-5 mb-5'>
                 {
                     topics.map(topic => <Topics
                         key={topic.id}

@@ -8,11 +8,11 @@ const Quize = ({ quize }) => {
             alert('Your Answer is Correct.. ')
         }
         else {
-            alert('Your Answer is Incorrect.Press Eye Button to see the Correct Answare..')
-        }
+            alert('Your Answer is Incorrect.Press Eye Button to see the Correct Answer..')
+        }    
     }
-    const handle = () => {
-        alert(correctAnswer)
+    const handle = () => {   
+            alert(correctAnswer)       
     }
 
     return (
